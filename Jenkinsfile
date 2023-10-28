@@ -46,7 +46,7 @@ pipeline {
             steps {
                 script {
                     // Push the built image to Docker Hub
-                    sh 'docker push amaniboussaa/angularachat'
+                    sh 'docker push malikhammami99/angularachat'
                 }
                 echo 'Push Image Completed'
             }
