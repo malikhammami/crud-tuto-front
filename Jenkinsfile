@@ -16,7 +16,7 @@ pipeline {
                     targetBranch = branchName
 
                     git branch: branchName,
-                    url: 'https://github.com/malikhammami/crud-tuto-front.git',
+                    url: 'https://github.com/malikhammami/crud-tuto-front.git'
                    
                 }
                 echo "Current branch name: ${branchName}"
